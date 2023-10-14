@@ -16,8 +16,10 @@ from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
 
+from .coda import CodaDataset
+
 __all__ = [
-    'CustomDataset', 'XMLDataset', 'CocoDataset', 'DeepFashionDataset',
+    'CustomDataset', 'XMLDataset', 'CocoDataset', 'CodaDataset', 'DeepFashionDataset',
     'VOCDataset', 'CityscapesDataset', 'LVISDataset', 'LVISV05Dataset',
     'LVISV1Dataset', 'GroupSampler', 'DistributedGroupSampler',
     'DistributedSampler', 'build_dataloader', 'ConcatDataset', 'RepeatDataset',
